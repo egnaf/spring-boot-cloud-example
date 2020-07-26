@@ -1,3 +1,11 @@
+server:
+  port: 8001
+
 spring:
   application:
     name: serviceDiscovery1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
