@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot-cloud-examples</artifactId>
+    <groupId>org.example</groupId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <modules>
+        <module>proxy-service</module>
+        <module>service-registry</module>
+        <module>service-discovery</module>
+    </modules>
+
+</project>
